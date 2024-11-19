@@ -1,0 +1,510 @@
+body {
+    margin: 0;
+}
+
+
+
+.wrapper {
+    padding: 2% 5% 5% 5% ;
+    width: 90%;
+    min-height: 600px;
+    background-color: rgb(207, 244, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+header {
+    display: flex;
+    width: 99%;
+    height: 40px;
+    background-color: rgb(31, 156, 29);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+li.spisok {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    padding: 10px;
+    list-style: none;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    /* cursor: pointer; */
+}  
+
+/* цвет ссылки в хедере при наведении */
+li.spisok:hover {
+    background-color: cadetblue;
+}
+/* цвет текста ссылки в хедере при наведении */
+  a:hover {
+    color: white;
+}
+
+/* убираем подчеркивание у всех ссылок */
+a {
+    text-decoration: none;
+} 
+
+
+
+
+
+/* стили для главной страницы index.html */
+.index_main_block {
+    margin-top: 15px;
+    width: 100%;
+     height: 600px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.index_main_block-left {
+    border-radius: 10px 0 0 10px;
+    width: 35%;
+    height: 100%;
+    background-color: #555;
+    background-image: url(/img/main_img2.jpg);
+    background-size: cover;
+}
+
+.index_main_block-right {
+    width: 75%;
+    height: 100%;
+    padding: 20px 40px 20px 40px;
+}
+
+
+
+
+/* стили для страницы о нас */
+.catalog-prod-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.catalog-prod-block-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+/* таблицы */
+.wrapper-table {
+    border-radius: 35px;
+}
+
+td {
+    width: 300px;
+    height: 150px;
+    padding: 0;
+    /* Прозрачный белый фон */
+    background-color: rgba(255, 255, 255, 0.5); 
+    overflow: hidden; /* Скрывает части изображения, выходящие за границы ячейки */
+
+}
+
+
+table {
+    background-image: url(/img/table_back.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-table  {
+    background-image: url('/img/img-table2.jpg');
+    background-size:cover;
+    background-position: center;
+    color: white;
+    text-align: center; 
+    padding: 10px;
+}
+
+td {
+    text-align: center; 
+    padding: 10px;
+}
+
+
+.imgSizesixty {
+    width: 600px;
+    height: 400px;
+    background-image: url(/img/img-table.jpg);
+    background-size: cover;
+}
+
+
+
+
+/* стили для страницы каталог */
+ 
+.catalog_main_block {
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    min-height: 600px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; /* Включает padding и border в общую ширину */
+    
+}
+
+.catalog_main_block-item {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Включает padding и border в общую ширину */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.catalog_main_block-left {
+    width: 35%;
+    border: 2px solid green;
+    border-radius: 20px;
+    box-sizing: border-box; /* Включает padding и border в общую ширину */
+}
+
+.catalog_main_block-right {
+    display: flex;
+    width: 65%;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column;
+}
+
+/* описание чая */
+.catalog_main_block-right-descript {
+    overflow-wrap: break-word; /* Разрешает перенос слов, если они слишком длинные */
+    width: 100%;
+    height: 20%;
+    margin-top: 80px;
+}
+
+
+.catalog_main_block-right-name  {
+
+    height: 20%;
+}
+
+
+.catalog_main_block-right-buy {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+
+/* название и стоииость */
+.name-price {
+    margin : 0 0 20px 0
+ 
+}
+
+ 
+
+ 
+
+
+/* кнопка купить */
+.btn-buy {
+    margin-top: 30px;
+    min-width: 100px;
+    height: 30px;
+    border-radius: 35px;
+    background-color: darkseagreen;
+}
+
+.btn-buy:hover {
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* стили для картинок чая */
+.img-tea {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Изображение сохраняет пропорции и обрезается по центру */
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+
+/* Форма */
+form {
+    background: #fff; /* Белый фон для формы */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 5px; /* Закругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для формы */
+    box-sizing: border-box;
+    /* max-width: 400px; Максимальная ширина формы */
+      display: flex;
+      flex-direction: column;
+      min-width: 400px;
+    }
+    
+       
+form label {
+    display: block; /* Каждый label на новой строке */
+    margin-bottom: 5px; /* Отступ снизу */
+}
+
+form input {
+    /* width: 100%; Ширина полей ввода */
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 10px; /* Отступы между полями ввода */
+    border: 1px solid #ccc; /* Обводка вокруг полей ввода */
+    border-radius: 4px; /* Закругленные углы */
+}
+
+form button {
+    background: #333; /* Цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    border: none; /* Убираем обводку */
+    padding: 10px 15px; /* Внутренние отступы */
+    border-radius: 4px; /* Закругленные углы */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background 0.3s; /* Плавный переход цвета */
+}
+
+form button:hover {
+    background: #555; /* Цвет кнопки при наведении */
+}
+
+
+
+  
+
+/* Блок для анкеты */
+.anketa_main_block {
+    margin-top: 15px;
+    width: 100%;
+    padding: 30px;
+    min-height: 600px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.anketa-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid 2px #e3e2e2;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* Блок для контакта */
+.contact_main_block {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pasport {
+    display: flex;
+    width: 600px;
+    height: 800px;
+    background-image: url(/img/passport.jpg);
+    background-size: cover;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pass-top-block {
+    margin-top: 43px;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.pass-title {
+    margin-top: 8px;
+}
+
+.pass-date {
+    width: 100%;
+    display: flex;
+}
+
+
+.pass-date-left {
+    width: 70%;
+}
+
+.pass-bottom-block {
+    margin-top: 40px;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.pass-bottom-block-top {
+    margin-top: 185px;
+    margin-left: 80px;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.surn-pass {
+    margin: 0;
+    margin-top: 413px; /* меняет высоту ФИО*/
+}
+
+.name-pass {
+    margin-top: 45px;
+}
+.fath-pass {
+    margin-top: -10px;
+}
+
+.pass-bottom-block-center {
+    position: relative;
+    bottom: -170px; /* меняет высоту для пола и даты*/
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+}
+
+.pass-bottom-block-center h3 {
+    margin: 0;
+}
+.sex-pass {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.date-pass {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+
+.place-pass {
+    position: relative;
+    bottom: -156px; /* меняет высоту города в паспорте*/ 
+    left: 40px;
+}
+
+
+/* задача */
+
+.block-task {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.block-taskh1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.input-group-task {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-group-task label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.input-group-task input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+.task_main_block {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ 
+
+.cat_block {
+    position: relative;
+    right: 185px;
+    bottom: 8px;
+    width: 160px;
+    height: 206px;
+    background-color: #45a049;
+    background-image: url(/img/cat_passport.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="wrapper">
+        <div class="logo">
+            <img src="/img/logo.png" alt="">
+        </div>
+
+        <header class="header">
+
+            <a href="/index.html" >
+                <li class="spisok">Главная</li>
+            </a>
+            
+            <a href="/about us.html">
+                <li class="spisok">О нас</li>
+            </a>
+            
+            <a href="/catalog.html">
+                <li class="spisok">Каталог</li>
+            </a>
+
+            <a href="/anketa.html" style="color: white;" >
+                <li class="spisok" style="background-color: cadetblue; ">Анкета</li>
+            </a>
+            
+            <a href="https://yandex.ru/maps/org/kitayskiy_chay_ru_vipcha/154732186946/reviews/?ll=37.453595%2C55.660587&z=13" target="_blank">
+                <li class="spisok">Отзывы</li>
+            </a>
+            
+            <a href="/contact.html">
+                <li class="spisok">Контакты</li>
+            </a>
+            
+            <a href="/task.html"  >
+                <li class="spisok" >Задача</li>
+            </a>
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <divd class="anketa_main_block">
+             
+            <h1>Заполни анкету</h1>
+
+            <form action="https://www.bing.com/search?"  target="_blank">
+                <input type="hidden" name="q" value="search"></p>
+                <p class="anketa-data">Фамилия: <input  name="last_name" size="20" value="Петров"></p>
+                <p class="anketa-data">Возраст: <input type="Number" name="age" size="20" value="0"></p>
+
+                <p class="anketa-data">Место проживания:
+                    <input type="Radio" name="place" value="Moscow">Москва
+                    <input type="Radio" name="place" value="Nizhny" checked="">Не Москва
+                </p>
+            
+                <p class="anketa-data">Стаж приема чая:
+                    <input type="Checkbox" name="experience" value="10" checked="">новичек 
+                    <input type="Checkbox" name="experience" value="20" checked="">любитель
+                    <input type="Checkbox" name="experience" value="30" checked="">профи
+                </p>
+            
+                <p class="anketa-data">Знание китайского чая
+                    <select name="languages">
+                        <option value="Владею свободно">Давно интересуюсь им</option>
+                        <option value="Читаю и перевожу со словарем">Только вошел в эту секту)</option>
+                    </select>
+                </p>
+            
+                <p class="anketa-data"> Дополнительная информация:
+                    <br>
+                    <textarea cols="80" rows="4" name="textarea">Для заметок</textarea>
+                </p>
+            
+                <p class="anketa-data">Дата: <input type="date" name="user_date" value="2024-10-02"></p>
+                <p class="anketa-data">Пароль: <input type="Password" name="password" size="9" value="123"></p>
+                <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+                <p class="anketa-data">Название файла: <input type="Техт" name="000_file_name" value="Н_ОW_Г_326510_1_Ivanov.txt" size="30"></p>
+            
+                <p class="anketa-data"> Тип записи в файл:<select name="010_mode">
+                    <option value="a">a - дозаписать в файл</option>
+                    <option value="w">w - очисить файл и записать в файл</option>
+                </select></p>
+            
+                <input type="hidden" name="function" value="page">
+                <input type="hidden" name="page_id" value="3">
+            
+                <p class="anketa-data">
+                    <input type="Reset" name="Reset" value="Обновить">
+                    <input type="Submit" name="submit" value="Отправить">
+                </p>
+            
+            </form>
+
+
+
+
+
+        </divd>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>

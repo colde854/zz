@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="logo">
+            <img src="/img/logo.png" alt="">
+        </div>
+
+        <header class="header">
+
+            <a href="/index.html" >
+                <li class="spisok" >Главная</li>
+            </a>
+            
+            <a href="/about us.html">
+                <li class="spisok">О нас</li>
+            </a>
+            
+            <a href="/catalog.html">
+                <li class="spisok">Каталог</li>
+            </a>
+
+            <a href="/anketa.html">
+                <li class="spisok">Анкета</li>
+            </a>
+            
+            <a href="https://yandex.ru/maps/org/kitayskiy_chay_ru_vipcha/154732186946/reviews/?ll=37.453595%2C55.660587&z=13" target="_blank">
+                <li class="spisok">Отзывы</li>
+            </a>
+            
+            <a href="/contact.html">
+                <li class="spisok">Контакты</li>
+            </a>
+
+            <a href="/task.html" style="color: white;" >
+                <li class="spisok"  style="background-color: cadetblue; ">Задача</li>
+            </a>
+            
+        </header>
+
+
+
+        <divd class="task_main_block">
+            <div class="block-task">
+                <h1>Проверка возможности выпилить брус</h1>
+            
+                <div class="input-group-task">
+                    <label for="diameter">Диаметр бревна (D):</label>
+                    <input type="number" id="diameter" placeholder="Введите диаметр в мм" min="0" required>
+                </div>
+                
+                <div class="input-group-task">
+                    <label for="width">Ширина квадратного бруса (A):</label>
+                    <input type="number" id="width" placeholder="Введите ширину в мм" min="0" required>
+                </div>
+            
+                <button class="btn-buy" onclick="checkFit()">Проверить</button>
+            
+                <div id="result" class="result"></div>
+            </div>
+            
+        </divd>
+
+
+
+
+
+    </div>
+
+
+<script src="/js/task.js"></script>
+</body>
+</html>
